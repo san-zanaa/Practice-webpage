@@ -49,7 +49,7 @@ header {
 .hero {
     height: 360px;
     width: 100%;
-    margin: 0 auto 30px;
+    margin: 0 auto 50px;
     background-image: url(images/banner.jpg);
     background-size: cover;
     background-position: center;
@@ -81,9 +81,67 @@ header {
     font-size: 36px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .hero-content p{
     font-size: 18px;
     text-align: center;
+}
+.services {
+    text-align: center;
+}
+.services h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.services p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 50px;
+}
+.service-container {
+    width: 95%;
+    margin: 0 auto 40px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 5px;
+}
+.section {
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.section img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.content {
+    text-align: left;
+    padding: 12px;
+}
+.content h5 {
+    color: #333333;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+.content p{
+    color: #555555;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.service-btn {
+    color: #FFFFFF;
+    background-color: #1A1A2E;
+    width: 110px;
+    height: 30px;
+    border: none;
+}
+.service-btn:hover {
+    background-color: #21295c;
+    cursor: pointer;
 }
