@@ -47,7 +47,7 @@ header {
     cursor: pointer;
 }
 .hero {
-    height: 360px;
+    height: 450px;
     width: 100%;
     margin: 0 auto 50px;
     background-image: url(images/banner.jpg);
@@ -144,4 +144,59 @@ header {
 .service-btn:hover {
     background-color: #21295c;
     cursor: pointer;
+}
+
+footer {
+    background-color: #1A1A2E;
+    width: 100%;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    line-height: 1.8;
+}
+.link h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.link a {
+    color: #CCCCCC;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.link a:hover {
+    color: #FFFFFF;
+}
+.contact h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.contact a {
+    color: #CCCCCC;
+    text-decoration: none;
+    font-size: 14px;
+}
+.contact p {
+    color: #CCCCCC;
+    font-size: 14px;
+}
+.social h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.social a {
+    color: #CCCCCC;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.social a:hover {
+    color: #FFFFFF;
 }
